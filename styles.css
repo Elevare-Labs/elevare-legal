@@ -85,3 +85,41 @@ h1 {
   border-color: rgba(79, 124, 255, 0.35);
   box-shadow: 0 10px 24px rgba(79, 124, 255, 0.08);
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 40px 18px 32px;
+  }
+
+  .hero-card {
+    padding: 28px 22px;
+    border-radius: 24px;
+  }
+
+  h1 {
+    font-size: 38px;
+    letter-spacing: -1.2px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .section-title {
+    margin-top: 34px;
+    font-size: 17px;
+  }
+
+  .link-card {
+    padding: 16px 18px;
+    border-radius: 18px;
+  }
+
+  .background-orb {
+    width: 240px;
+    height: 240px;
+    top: -80px;
+    right: -60px;
+  }
+}
